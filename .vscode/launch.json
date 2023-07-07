@@ -7,6 +7,13 @@
       "request": "launch",
       "type": "dart",
       "args": ["--debug", "--dart-define-from-file=dart_define.json"]
+    },
+    {
+      "name": "Release",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--release", "--dart-define-from-file=dart_define.json"]
     }
   ]
 }
