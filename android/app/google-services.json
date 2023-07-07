@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "231432012839",
+    "project_id": "fir-auth-line-sign-in",
+    "storage_bucket": "fir-auth-line-sign-in.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231432012839:android:11f65cc74a7e4be187fa02",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth_line_sign_in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231432012839-6k5b8dt07mq9718l2ja8io6at7chhgfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6NW3bBnGfUL_uxlMi6UGwj1jXadPPAas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231432012839-6k5b8dt07mq9718l2ja8io6at7chhgfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
