@@ -45,3 +45,6 @@ app.*.map.json
 
 # FVM
 .fvm/flutter_sdk
+
+# dart-define
+dart_define.json
