@@ -71,7 +71,7 @@ class _SignedOutState extends State<_SignedOut> {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: _isLoading ? null : _signInWithLine,
+      onPressed: _isLoading ? null : _signInWithLINE,
       child: Text(
         _isLoading ? '通信中...' : 'LINE ログインする',
       ),
@@ -79,14 +79,13 @@ class _SignedOutState extends State<_SignedOut> {
   }
 
   /// LINE で Firebase Authentication にログインする。
-  Future<void> _signInWithLine() async {
+  Future<void> _signInWithLINE() async {
     setState(() {
       _isLoading = true;
     });
     try {
-      // LineSDK の login メソッドをコールする
-      final loginResult =
-          await LineSDK.instance.login(scopes: ['profile', 'openid', 'email']);
+      // LineSDK の login メソッドをコールする。
+      final loginResult = await LineSDK.instance.login();
 
       // 得られる LoginResult 型の値にアクセストークン文字列が入っている。
       final accessToken =
